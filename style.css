@@ -1,0 +1,205 @@
+body {
+  background-color: rgb(37, 37, 37);
+}
+* {
+  box-sizing: content-box;
+}
+#navbar {
+  background-color: rgb(19, 19, 19);
+}
+h1 {
+  color: aliceblue;
+}
+h2 {
+  color: aliceblue;
+}
+.zag-olovok {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding-top: 10px;
+}
+p {
+  color: rgb(255, 255, 255);
+  opacity: 60%;
+}
+main {
+  margin: 15px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.img-1 {
+  display: block;
+  width: 400px;
+  padding-right: 10px;
+  border-radius: 20px 10px 0;
+}
+.hr {
+  border: 3px solid aliceblue;
+  background-color: aliceblue;
+  border-radius: 5px;
+  opacity: 100;
+  width: 100px;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.header-border {
+  border-radius: 0 0 20px 20px;
+}
+.TSOY-btn {
+  border-radius: 50px;
+  color: aliceblue;
+  background-color: black;
+  border-color: rgb(63, 63, 63);
+  padding: 10px 10px;
+}
+.TSOY-btn:hover {
+  box-shadow: 6px 6px 8px 0px rgb(15, 15, 15);
+}
+.TSOY-btn:after {
+  opacity: 1;
+}
+.znakomstvo- {
+  padding-top: 50px;
+  padding-bottom: 150px;
+}
+.statii {
+  text-align: center;
+}
+.cards-row {
+  display: flex;
+  justify-content: space-between;
+}
+.card {
+  border-radius: 8px;
+  box-shadow: 0 0 15px 10px rgb(26, 26, 26);
+  background-color: rgb(82, 82, 82);
+  height: 400px;
+  width: 320px;
+  padding: 20px;
+  color: aliceblue;
+  text-align: center;
+}
+.card p {
+  opacity: 80px;
+  line-height: 1.5;
+}
+.img-cards {
+  height: 50%;
+  border-radius: 15px;
+}
+.statii-btn {
+  margin-top: 50px;
+  border-radius: 50px;
+  color: aliceblue;
+  background-color: rgb(31, 31, 31);
+  border-color: rgb(63, 63, 63);
+  padding: 10px 10px;
+}
+.project-img-1 {
+  height: 300px;
+  border-radius: 15px;
+}
+.project-img-2 {
+  height: 370px;
+}
+.hr-100 {
+  border: 1px solid rgb(117, 117, 117);
+  background-color: aliceblue;
+  border-radius: 10px;
+  opacity: 100;
+  margin: 0 auto;
+  margin-top: 90px;
+  margin-bottom: 90px;
+}
+.projects-wrapper {
+  margin: 0 auto;
+  width: 70%;
+}
+.projects-container > * {
+  margin-bottom: 50px;
+}
+.project {
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 175px;
+}
+.project-text {
+  width: 45%;
+}
+.projects-hr {
+  border: 1px solid aliceblue;
+  border-radius: 10px;
+  opacity: 100;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+.projects-btn {
+  border-radius: 50px;
+  color: rgb(180, 180, 180);
+  background-color: rgb(31, 31, 31);
+  border-color: rgb(63, 63, 63);
+  padding: 10px 10px;
+}
+.right-align {
+  flex-direction: row-reverse;
+}
+.h3 {
+  color: aliceblue;
+}
+.project-text h3 {
+  text-align: center;
+}
+a {
+  text-decoration: dashed;
+}
+.navbar-poisk {
+  width: 200px;
+}
+.navbar-btn {
+  border-color: aliceblue;
+  color: aliceblue;
+}
+.news-card {
+  border-radius: 8px;
+  box-shadow: 0 0 20px 15px rgb(26, 26, 26);
+  background-color: rgb(82, 82, 82);
+  height: 100%;
+  width: 20%;
+  color: aliceblue;
+  text-align: center;
+  display: block;
+}
+.news-img {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 8px 8px 0 0;
+}
+.news-text {
+  font-size: 20px;
+  letter-spacing: -0.5px;
+}
+.a-news {
+  color: rgb(32, 151, 255);
+  font-size: 120%;
+}
+.video-container {
+  background-image: url(images/WJQ.jpg);
+  position: absolute;
+  left: 25%;
+  right: 25%;
+  border-radius: 20px;
+  width: 1200px;
+  height: 675px;
+  display: flex;
+  align-items: center;
+}
+.video-element {
+  padding: 25px;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
